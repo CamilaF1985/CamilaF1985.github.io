@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para fuentes */
+h1, h2, h3, p {
+    font-family: 'Source Code Pro', monospace; /* Fuente 'Source Code Pro' */
+}
+
+/* Estilos para tamaño y color del texto */
+h1 {
+    font-size: 48px; /* Tamaño para el encabezado principal */
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* Estilos para los iconos */
+.toggle-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+
+
+/* Estilos para Acerca de */
+#about-me-popup {
+    display: none;
+    background-image: url('img/2.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: white;
+  }
+
+      /* Cambiar color y estilo del enlace */
+      #about-me-popup a {
+        color: white; /* Cambia el color del enlace a blanco */
+        text-decoration: none; /* Remueve el subrayado del enlace */
+    }
+
+    /* Estilo del nombre de la institución */
+    #about-me-popup .institution {
+        font-weight: bold; /* Hace que el nombre de la institución esté en negrita */
+    }
+
+/* Estilos para Proyectos */
+#project-popup {
+    display: none;
+    background-image: url('img/2.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: white;
+  }
+
+  .image-gallery {
+    display: flex;
+    gap: 10px; /* Ajusta el espaciado entre las imágenes */
+  }
+  
+  .image-gallery img {
+    max-width: 300px; /* Ajusta el ancho máximo de las imágenes */
+    max-height: 300px; /* Ajusta la altura máxima de las imágenes */
+  }
+
+  .center-icons {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 20px;
+  }
+  
+  .center-icons a {
+    margin: 0 10px; /* Ajusta el margen entre los iconos */
+  }
+
+/* Estilos para Fancybox */
+.fancybox-slide {
+    background-color: rgba(0, 0, 0, 0.9); /* Cambia el fondo de la ventana emergente */
+    color: #ffffff; /* Cambia el color del texto en la ventana emergente */
+  }
+  
+  .fancybox-caption {
+    font-weight: bold; /* Agrega negrita al texto de la descripción */
+  }
